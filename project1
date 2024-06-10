@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="success.html">
+        <h1>Registration form </h1>
+        <div id="person">
+            <p>First name:</p>
+            <input type="text"/>
+            <p>Last name:</p>
+            <input type="text"/>
+        </div>
+        <div id="contact">
+            <p>Gmail:</p>
+            <input type="text"/>
+            <p>Number</p>
+            <input type="text"/>
+        </div>
+        <div id="Gender">
+            <p>Gender:</p>
+            <input type="radio" name="gender" value="male" /> male
+            <input type="radio" name="gender" value="female"/> female
+            <input type="radio" name="gender" value="transgender"/> transgender
+        </div>
+        <div id="password">
+            <p>Password:</p>
+            <input type="pass">
+        </div>
+        <input type="submit"/>
+    </form>
+
+
+</body>
+</html>
